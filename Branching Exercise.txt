@@ -1,0 +1,45 @@
+Part I
+
+git checkout -b name_of_branch
+
+fast forward merge - you’re essentially “moving forward” the branch pointer of the branch you’re merging into. This type of merge is possible when there are no new changes in the current branch since the branches diverged. So, instead of creating a new merge commit, the branch pointer is just moved up to the latest commit of the branch being merged.
+
+recursive merge - is used when there have been changes on the current branch since the branches diverged. If those changes don’t conflict with the changes on the branch being merged, Git will merge the branches and create a new merge commit. If there are conflicting changes, Git will prompt the user to resolve those before it can create the merge commit.
+
+git checkout name_of_branch
+
+git branch -d name_of_branch
+
+Merge conflicts occurs when the same part of a file is modified in two branches that are being merged together. Specifically, Git is unable to automatically determine which modification should be kept.
+
+Part II
+git checkout master
+git checkout new-branch
+git add. 
+git commit -m "descriptive message"
+git checkout master
+git merge new-branch
+
+Merge conflict
+git init
+
+echo "Hi there" > test.txt
+git add test.txt
+git commit -m "first commit"
+git checkout -b testbranch
+
+echo "Hello there" > test.txt
+git commit -m "New text in testbranch"
+git checkout master
+
+echo "Hey there" > test.txt
+git commit -m "New text in master"
+
+git merge testbranch
+
+
+ 
+
+
+
+
