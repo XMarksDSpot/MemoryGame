@@ -76,7 +76,7 @@ body {
     text-align: center;
   }
   h1::before {
-    content: url(image/Mind\ Maze.png);
+    content: url(images/Mind\ Maze.png);
     display: inline-block;
   }
   .card {
@@ -97,7 +97,7 @@ body {
     cursor: pointer;
   }
   .card:not(.flip) {
-    background-image: url('image/xmarks.JPG');
+    background-image: url('images/xmarks.JPG');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -309,7 +309,7 @@ body {
     text-align: center;
   }
   h3::before {
-    content: url(image/top\ scores.png);
+    content: url(images/top\ scores.png);
     display: inline-block;
   }
   #end-screen {
@@ -329,7 +329,7 @@ body {
     text-align: center;
   }
   h2::before {
-    content: url(image/completed.png);
+    content: url(images/completed.png);
     display: inline-block;
   }
   .current-user-score {
