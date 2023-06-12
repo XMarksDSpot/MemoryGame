@@ -1,0 +1,28 @@
+2023-06-12 14:01:36.148 [info] Log level: Info
+2023-06-12 14:01:36.148 [info] Validating found git in: "git"
+2023-06-12 14:01:36.148 [info] Using git "2.34.1" from "git"
+2023-06-12 14:01:36.148 [info] > git rev-parse --show-toplevel [34ms]
+2023-06-12 14:01:36.148 [info] > git rev-parse --git-dir --git-common-dir [20ms]
+2023-06-12 14:01:36.148 [info] Open repository: /home/xmarksthespot/springboard
+2023-06-12 14:01:36.152 [info] > git config --get commit.template [1ms]
+2023-06-12 14:01:36.156 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-06-12 14:01:36.160 [info] > git status -z -uall --find-renames=50% [2ms]
+2023-06-12 14:01:36.169 [info] > git config --get commit.template [1ms]
+2023-06-12 14:01:36.173 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-06-12 14:01:36.177 [info] > git status -z -uall --find-renames=50% [1ms]
+2023-06-12 14:01:36.687 [info] > git fetch [542ms]
+2023-06-12 14:01:36.694 [info] > git config --get commit.template [4ms]
+2023-06-12 14:01:36.695 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-06-12 14:01:36.699 [info] > git status -z -uall --find-renames=50% [1ms]
+2023-06-12 14:01:37.819 [info] > git config --get commit.template [1ms]
+2023-06-12 14:01:37.822 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-06-12 14:01:37.827 [info] > git status -z -uall --find-renames=50% [1ms]
+2023-06-12 14:02:16.146 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2023-06-12 14:02:20.056 [info] > git for-each-ref --format %(refname:short)%00%(upstream:short) refs/heads [0ms]
+2023-06-12 14:02:20.069 [info] > git checkout -q main [3ms]
+2023-06-12 14:02:20.073 [info] > git config --get commit.template [1ms]
+2023-06-12 14:02:20.076 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+2023-06-12 14:02:20.080 [info] > git status -z -uall --find-renames=50% [1ms]
+2023-06-12 14:02:21.167 [info] > git config --get commit.template [4ms]
+2023-06-12 14:02:21.167 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-06-12 14:02:21.172 [info] > git status -z -uall --find-renames=50% [2ms]
