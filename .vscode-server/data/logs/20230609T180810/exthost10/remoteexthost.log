@@ -1,6 +1,0 @@
-2023-06-12 14:18:21.645 [info] Extension host with pid 114721 started
-2023-06-12 14:18:21.653 [info] Lock '/home/xmarksthespot/.vscode-server/data/User/workspaceStorage/91c56c31768ac0087ce8ab72dc092895/vscode.lock': Lock acquired.
-2023-06-12 14:18:21.669 [info] Eager extensions activated
-2023-06-12 14:18:48.792 [info] Extension host terminating: received terminate message from renderer
-2023-06-12 14:18:48.792 [info] Lock '/home/xmarksthespot/.vscode-server/data/User/workspaceStorage/91c56c31768ac0087ce8ab72dc092895/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
-2023-06-12 14:18:48.793 [info] Extension host with pid 114721 exiting with code 0
