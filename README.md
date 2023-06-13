@@ -1,2 +1,2 @@
 # XMARK
-Memory Game
+Memory Game styles
