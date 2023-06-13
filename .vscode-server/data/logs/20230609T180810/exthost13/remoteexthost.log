@@ -1,4 +1,0 @@
-2023-06-12 15:54:36.556 [info] Extension host with pid 121486 started
-2023-06-12 15:54:36.593 [info] Eager extensions activated
-2023-06-12 15:56:24.861 [info] Extension host terminating: received terminate message from renderer
-2023-06-12 15:56:24.862 [info] Extension host with pid 121486 exiting with code 0
