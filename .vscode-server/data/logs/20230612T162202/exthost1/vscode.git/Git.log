@@ -1,0 +1,40 @@
+2023-06-12 16:22:03.550 [info] Log level: Info
+2023-06-12 16:22:03.550 [info] Validating found git in: "git"
+2023-06-12 16:22:03.550 [info] Using git "2.34.1" from "git"
+2023-06-12 16:22:03.550 [info] > git rev-parse --show-toplevel [39ms]
+2023-06-12 16:22:03.551 [info] > git rev-parse --git-dir --git-common-dir [20ms]
+2023-06-12 16:22:03.562 [info] Open repository: /home/xmarksthespot
+2023-06-12 16:22:03.574 [info] > git rev-parse --show-toplevel [7ms]
+2023-06-12 16:22:03.579 [info] > git rev-parse --show-toplevel [2ms]
+2023-06-12 16:22:03.583 [info] > git config --get commit.template [10ms]
+2023-06-12 16:22:03.588 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-06-12 16:22:03.604 [info] > git status -z -uall --find-renames=50% [7ms]
+2023-06-12 16:22:03.616 [info] > git config --get commit.template [1ms]
+2023-06-12 16:22:03.631 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2023-06-12 16:22:03.647 [info] > git status -z -uall --find-renames=50% [12ms]
+2023-06-12 16:22:04.103 [info] > git fetch [542ms]
+2023-06-12 16:22:04.104 [info] Missing or invalid credentials.
+Skip silent fetch commands
+Missing or invalid credentials.
+Skip silent fetch commands
+remote: Repository not found.
+fatal: Authentication failed for 'https://github.com/XMarksDSpot/SpringBoard/'
+2023-06-12 16:22:04.113 [info] > git config --get commit.template [5ms]
+2023-06-12 16:22:04.115 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-06-12 16:22:04.127 [info] > git status -z -uall --find-renames=50% [9ms]
+2023-06-12 16:22:07.411 [info] > git check-ignore -v -z --stdin [3ms]
+2023-06-12 16:22:08.318 [info] > git config --get commit.template [3ms]
+2023-06-12 16:22:08.324 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-06-12 16:22:08.333 [info] > git status -z -uall --find-renames=50% [6ms]
+2023-06-12 16:22:08.979 [info] > git check-ignore -v -z --stdin [2ms]
+2023-06-12 16:22:13.352 [info] > git config --get commit.template [3ms]
+2023-06-12 16:22:13.358 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-06-12 16:22:13.368 [info] > git status -z -uall --find-renames=50% [6ms]
+2023-06-12 16:22:18.381 [info] > git config --get commit.template [1ms]
+2023-06-12 16:22:18.386 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-06-12 16:22:18.395 [info] > git status -z -uall --find-renames=50% [6ms]
+2023-06-12 16:22:23.427 [info] > git config --get commit.template [8ms]
+2023-06-12 16:22:23.429 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-06-12 16:22:23.449 [info] > git status -z -uall --find-renames=50% [6ms]
+2023-06-12 16:22:30.741 [info] > git config --get commit.template [11ms]
+2023-06-12 16:22:30.746 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]

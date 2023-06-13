@@ -1,0 +1,11 @@
+2023-06-12 16:22:02.296 [info] 
+
+
+
+
+2023-06-12 16:22:02.319 [info] Extension host agent started.
+2023-06-12 16:22:02.358 [info] Started initializing default profile extensions in extensions installation folder. file:///home/xmarksthespot/.vscode-server/extensions
+2023-06-12 16:22:02.385 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/xmarksthespot/.vscode-server/extensions
+2023-06-12 16:22:02.547 [info] [127.0.0.1][ff901527][ManagementConnection] New connection established.
+2023-06-12 16:22:02.788 [info] [127.0.0.1][b1a0ee6a][ExtensionHostConnection] New connection established.
+2023-06-12 16:22:02.889 [info] [127.0.0.1][b1a0ee6a][ExtensionHostConnection] <121901> Launched Extension Host Process.
