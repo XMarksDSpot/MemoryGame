@@ -263,6 +263,7 @@ button:hover {
   width: 200px;
   border-radius: 15px;
   padding: 10px;
+  margin: auto;
 }
 #timer-display {
   position: absolute;
