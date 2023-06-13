@@ -1,0 +1,23 @@
+2023-06-13 13:52:56.716 [info] Extension host with pid 1050 started
+2023-06-13 13:52:56.720 [error] Error: EEXIST: file already exists, open '/home/xmarksthespot/.vscode-server/data/User/workspaceStorage/3ac41571d32ad99b038853b944d2833b/vscode.lock'
+2023-06-13 13:52:56.723 [info] Lock '/home/xmarksthespot/.vscode-server/data/User/workspaceStorage/3ac41571d32ad99b038853b944d2833b/vscode.lock': Could not acquire lock, checking if the file is stale.
+2023-06-13 13:52:56.750 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-06-13 13:52:56.767 [info] Lock '/home/xmarksthespot/.vscode-server/data/User/workspaceStorage/3ac41571d32ad99b038853b944d2833b/vscode.lock': The pid 121901 appears to be gone.
+2023-06-13 13:52:56.767 [info] Lock '/home/xmarksthespot/.vscode-server/data/User/workspaceStorage/3ac41571d32ad99b038853b944d2833b/vscode.lock': Deleting a stale lock.
+2023-06-13 13:52:56.778 [info] Lock '/home/xmarksthespot/.vscode-server/data/User/workspaceStorage/3ac41571d32ad99b038853b944d2833b/vscode.lock': Lock acquired.
+2023-06-13 13:52:56.793 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-06-13 13:52:56.803 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-06-13 13:52:56.803 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-06-13 13:52:56.904 [info] Eager extensions activated
+2023-06-13 13:52:56.904 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-06-13 13:52:56.904 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-06-13 13:52:57.019 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1309
+2023-06-13 13:52:57.203 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1309
+2023-06-13 13:52:57.466 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1309
+2023-06-13 13:52:58.181 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-06-13 13:52:58.181 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-06-13 13:53:00.904 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1310
+2023-06-13 13:53:05.947 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1310
+2023-06-13 13:53:10.998 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1310
+2023-06-13 13:53:16.033 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1310
+2023-06-13 13:53:21.070 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1310
