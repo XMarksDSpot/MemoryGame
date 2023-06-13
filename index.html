@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Memory Game!</h1>
+    <div class="container">
+      <div id="timer-display-container">
+        <span id="timer-display"></span>
+      </div>
+      <br />
+      <div id="start-screen">
+        <input
+          id="name"
+          type="text"
+          placeholder="enter name"
+          autocomplete="off"
+        />
+        <button id="start-btn" type="submit">START</button>
+        <button id="back-btn">BACK</button>
+        <table id="high-score-display">
+          <thead>
+            <h3 id="top-score-text">TOP SCORES</h3>
+            <tr>
+              <th></th>
+              <th>USERNAME</th>
+              <th>SCORE</th>
+              <th>TIME</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+
+        <button id="high-scores-btn">HIGH SCORES</button>
+        <button id="clear-scores-btn">CLEAR SCORE</button>
+      </div>
+
+      <div class="game"></div>
+      <div id="end-screen">
+        <h2>COMPLETED</h2>
+        <div id="user-details-container"></div>
+        <button id="restart-btn">RETRY</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
