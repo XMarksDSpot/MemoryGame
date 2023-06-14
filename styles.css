@@ -4,6 +4,7 @@ body {
   margin: 0;
   padding: 0;
 }
+}
 .container {
   width: 90%;
   margin: 0 auto;
@@ -340,4 +341,4 @@ h2::before {
   font-size: 80px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-}
+
