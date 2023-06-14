@@ -1,8 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 @media screen and (max-width: 414px) {
 =======
 @media screen and {max-width: 600px;} {
 >>>>>>> d5a8442 (@media screen adjust)
+=======
+@media screen and (max-width: 600px) {
+
+>>>>>>> da60e02 (edit styles)
 body {
   background-color: rgb(83, 81, 81);
   margin: 0;
@@ -344,8 +349,8 @@ h2::before {
   font-weight: bold;
   font-size: 80px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-<<<<<<< HEAD
 }
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 }
@@ -353,3 +358,6 @@ h2::before {
 }
 >>>>>>> 7d2d248 (Rename styles.css.css to styles.css)
 >>>>>>> f9892f9 (rename)
+=======
+}
+>>>>>>> da60e02 (edit styles)
