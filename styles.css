@@ -1,4 +1,4 @@
-@media screen and {max-width: 600px;} {
+@media screen and (max-width: 600px) {
 body {
   background-color: rgb(83, 81, 81);
   margin: 0;
@@ -339,8 +339,5 @@ h2::before {
   font-weight: bold;
   font-size: 80px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-<<<<<<< HEAD
 }
-=======
 }
->>>>>>> 7d2d248 (Rename styles.css.css to styles.css)
