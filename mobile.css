@@ -34,11 +34,11 @@
       font-size: 18px;
     }
     #timer-display-container {
-      width: 50px;
-      height: 25px;
+      width: 40px;
+      height: 20px;
     }
     #timer-display {
-      font-size: 20px;
+      font-size: 15px;
     }
     #high-score-display {
       width: 100%;
@@ -338,8 +338,8 @@
       }
       #timer-display {
         position: absolute;
-        top: 50%;
-        left: 50%;
+        top: 10%;
+        left: 20%;
         transform: translate(-50%, -50%);
         color: rgb(109, 213, 6);
         font-weight: bold;
