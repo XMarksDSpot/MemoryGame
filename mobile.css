@@ -1,4 +1,8 @@
-@media screen and (max-width: 390px) {
+@media only screen 
+and (device-width : 390px) 
+and (device-height: 844px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: portrait) {
     body {
       background-color: rgb(83, 81, 81);
       margin: 0;
@@ -34,10 +38,12 @@
       font-size: 18px;
     }
     #timer-display-container {
+      position: absolute;
       width: 40px;
       height: 20px;
     }
     #timer-display {
+      position: absolute;
       font-size: 15px;
     }
     #high-score-display {
@@ -48,7 +54,10 @@
     .current-user-score {
       font-size: 40px;
     }
+    .your-element {
+      max-width: 390px;
     }
+  }   
     
     @media (min-width: 415px) and (max-width: 767px) {
     .container {
@@ -411,3 +420,4 @@
         font-size: 80px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       }
+    
