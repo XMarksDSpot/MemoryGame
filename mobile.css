@@ -7,6 +7,10 @@
         width: 80%;
       }
 
+      h1 {
+        margin: 0 auto;
+      }
+      
       #timer-display-container {
         overflow: hidden;
         width: 100%;
@@ -37,6 +41,11 @@
       .card {
         width: 40%;
       }
+
+      h1 {
+        margin: 0 auto;
+      }
+
       #timer-display-container {
         overflow: hidden;
         width: 100%;
