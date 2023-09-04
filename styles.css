@@ -56,7 +56,7 @@ body {
   width: max-content;
   margin: 10px auto;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 100px);
   gap: 12px;
 }
 h1 {
