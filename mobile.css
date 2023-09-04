@@ -10,10 +10,10 @@
       h1 {
         margin: 0 auto;
       }
-      
+
       #timer-display-container {
         overflow: hidden;
-        width: 100%;
+        width: 30%;
       }
 
       #timer-display {
@@ -27,13 +27,13 @@
         gap: 1rem;
       }
       #start-screen {
-        width: 100%;
+        width: 50%;
       }
       #high-score-display {
-        width: 100%;
+        width: 50%;
       }
       #end-screen {
-        width: 100%;
+        width: 50%;
       }
     }
 
@@ -48,7 +48,7 @@
 
       #timer-display-container {
         overflow: hidden;
-        width: 100%;
+        width: 30%;
       }
 
       #timer-display {
@@ -62,12 +62,12 @@
         gap: 1rem;
       }
       #start-screen {
-        width: 100%;
+        width: 50%;
       }
       #high-score-display {
-        width: 100%;
+        width: 50%;
       }
       #end-screen {
-        width: 100%;
+        width: 50%;
       }
     }
