@@ -1,98 +1,68 @@
-    @media only screen and (min-width: 600px) {
-      body {
-        background-color: rgb(83, 81, 81);
-        margin: 0;
-        padding: 0;
-      }
-      .container {
-        width: 100%;
-        padding: 0 30px;
-      }
+body {
+  background-color: rgb(83, 81, 81);
+  margin: 0 auto;
+  padding: 20px;
+}
 
-      .card {
-        width: 25%;
-      }
+.container {
+  width: 100%;
+  padding: 0 30px;
+}
 
-      h1 {
-        margin: 0 auto;
-      }
+.card {
+  width: 100%; /* Full width on mobile */
+}
 
-      #timer-display-container {
-        display: flex;
-        position: absolute;
-        top: 10%;
-        right:10%;
-        /* overflow: hidden; */
-        width: 30%;
-      }
+#timer-display-container {
+  display: block; /* Stack items vertically on mobile */
+  width: 100%;
+  position: relative;
+  top: auto;
+  right: auto;
+}
 
-      #timer-display {
-        /* max-width: 100%; */
-        font-size: 10px;
-        /* text-align: right; */
-        position: relative;
-      }
+#timer-display {
+  font-size: 10px;
+  text-align: center; /* Center text on mobile */
+  position: relative;
+  width: 100%;
+}
 
-      .game {
-        grid-template-columns: repeat(4, 1fr);
-        gap: 1rem;
-      }
-      #start-screen {
-        width: 50%;
-      }
-      #high-score-display {
-        width: 50%;
-      }
-      #end-screen {
-        width: 50%;
-      }
-    }
+.game {
+  grid-template-columns: repeat(1, 1fr); /* Single column on mobile */
+  gap: 1rem;
+}
 
-    @media only screen and (min-width: 992px) {
-      body {
-        background-color: rgb(83, 81, 81);
-        margin: 0;
-        padding: 0;
-      }
-      .container {
-        width: 100%;
-        padding: 0 30px;
-      }
-      .card {
-        width: 40%;
-      }
+#start-screen,
+#high-score-display,
+#end-screen {
+  width: 100%; /* Full width on mobile */
+}
 
-      h1 {
-        margin: 0 auto;
-      }
+@media only screen and (min-width: 600px) {
+  .card {
+      width: 25%;
+  }
 
-      #timer-display-container {
-        display: flex;
-        position: absolute;
-        top: 10%;
-        right:10%;
-        /* overflow: hidden; */
-        width: 30%;
-      }
+  #timer-display-container {
+      display: flex;
+      position: absolute;
+      top: 10%;
+      right:10%;
+      width: 30%;
+  }
 
-      #timer-display {
-        
-        /* max-width: 100%; */
-        font-size: 10px;
-        /* text-align: right; */
-      }
+  #timer-display {
+      position: relative;
+  }
 
-      .game {
-        grid-template-columns: repeat(4, 1fr);
-        gap: 1rem;
-      }
-      #start-screen {
-        width: 30%;
-      }
-      #high-score-display {
-        width: 30%;
-      }
-      #end-screen {
-        width: 30%;
-      }
-    }
+  .game {
+      grid-template-columns: repeat(4, 1fr);
+  }
+
+  #start-screen,
+  #high-score-display,
+  #end-screen {
+      width: 50%;
+  }
+}
