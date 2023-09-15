@@ -41,14 +41,10 @@ body {
 
 @media only screen and (min-width: 600px) {
   .card {
-      width: 25%;
+      width: 50%;
   }
 
   #timer-display-container {
-      display: flex;
-      position: absolute;
-      top: 10%;
-      right:10%;
       width: 30%;
   }
 
